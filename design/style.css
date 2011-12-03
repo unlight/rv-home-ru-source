@@ -11,6 +11,10 @@ body {
 	color: #666;
 }
 
+p {
+	margin: 0.8em 0;
+}
+
 a {
 	text-decoration:none;
 	color:#666;
