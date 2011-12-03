@@ -217,12 +217,16 @@ input.text:hover {
 	text-align:right;
 	color:#BBB;
 	border-bottom:#CCC 1px dashed;
-	letter-spacing:.25em;
+	letter-spacing: .1em;
 	font-weight:100;
 	line-height:.8em;
 	font-size:9px;
 	margin:4px 0 5px;
 	padding:0.4em 0 5px;
+}
+
+.Viewpost .date {
+	border: 0;
 }
 
 input.button {

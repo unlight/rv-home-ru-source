@@ -1,7 +1,8 @@
 <?php if (!defined('APPLICATION')) exit();
 
 function P($Name) {
-	return htmlspecialchars(GetValue($Name, $_POST));
+	$Result = htmlspecialchars(GetValue($Name, $_POST));
+	return $Result;
 }
 
 function LoadPost($PostID) {
@@ -14,8 +15,8 @@ function LoadPost($PostID) {
 }
 
 function SortFunction($Array1, $Array2) {
-	if ($Array1['PostDate'] == $Array2['PostDate']) return 0;
-	return ($Array1['PostDate'] > $Array2['PostDate']) ? -1 : 1;
+	if (GetValue('PostDate', $Array1) == GetValue('PostDate', $Array2)) return 0;
+	return (GetValue('PostDate', $Array1) > GetValue('PostDate', $Array2)) ? -1 : 1;
 }
 
 function SavePost($PostValues) {
@@ -26,18 +27,28 @@ function SavePost($PostValues) {
 	if (file_exists($SaveFile)) include $SaveFile;
 	if (!isset($_) || !is_array($_)) $_ = array();
 	
+	
 	if ($IsDelete) {
 		unset($_[$PostID]);
+		$FullBodyFile = PATH_DATA . "/post{$PostID}.php";
+		if (file_exists($FullBodyFile)) unset($FullBodyFile);
 	} else {
 		if (!$PostID) {
 			krsort($_);
 			$Temp = reset($_);
-			$PostID = GetValue('PostID', $Temp, 0) + 1;
+			$PostID = GetValue('PostID', $Temp, 0) + rand(10, 99);
 			$PostValues['PostID'] = $PostID;
+		}
+		$PostID = GetValue('PostID', $PostValues);
+		$FullBodyFile = PATH_DATA . "/post{$PostID}.php";
+		if ($PostValues['FullBody']) {
+			$PostValues['HasFullBody'] = 1;
+			file_put_contents($FullBodyFile, '<?php $_ = '.var_export($PostValues, True).';');
+			unset($PostValues['FullBody']);
 		}
 		$_[$PostID] = $PostValues;
 	}
-	
+
 	uasort($_, 'SortFunction');
 	
 	$Result = file_put_contents($SaveFile, '<?php $_ = '.var_export($_, True).';');
@@ -84,6 +95,7 @@ if ($_POST) {
 	<input type="text" name="PostID" placeholder="PostID" value="<?php echo p('PostID');?>"/>
 	<textarea name="Body" placeholder="Текст"><?php echo p('Body');?></textarea>
 	<input type="text" name="Link" placeholder="Ссылка" value="<?php echo p('Link');?>"/>
+	<textarea name="FullBody" placeholder="Полный текст"><?php echo p('FullBody');?></textarea>
 <input type="submit" name="Save" value="Сохранить" />
 <input type="submit" name="Delete" value="Удалить" />
 </form>

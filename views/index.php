@@ -19,7 +19,7 @@
 	Если хотите связаться со мной, смотрите раздел <a href="#contact">контакты</a>.</p>
 </div> -->
 
-<?php if (count($Posts) > 0) { ?>
+<?php if (isset($Posts) && count($Posts) > 0) { ?>
 	<div id="blog">
 		<h2>Посты</h2>
 		<?php foreach ($Posts as $Post) {
