@@ -30,6 +30,7 @@ function SavePost($PostValues) {
 		unset($_[$PostID]);
 	} else {
 		if (!$PostID) {
+			krsort($_);
 			$Temp = reset($_);
 			$PostID = GetValue('PostID', $Temp, 0) + 1;
 			$PostValues['PostID'] = $PostID;
