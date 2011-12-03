@@ -33,7 +33,7 @@ function SavePost($PostValues) {
 		if (!$PostID) {
 			krsort($_);
 			$Temp = reset($_);
-			$PostID = GetValue('PostID', $Temp, 0) + 1;
+			$PostID = GetValue('PostID', $Temp, 0) + rand(1, 9);
 			$PostValues['PostID'] = $PostID;
 		}
 		$_[$PostID] = $PostValues;
