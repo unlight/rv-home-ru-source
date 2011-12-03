@@ -1,7 +1,8 @@
 <?php if (!defined('APPLICATION')) exit();
 
 function P($Name) {
-	return htmlspecialchars(GetValue($Name, $_POST));
+	$Result = htmlspecialchars(GetValue($Name, $_POST));
+	return $Result;
 }
 
 function LoadPost($PostID) {
@@ -37,7 +38,7 @@ function SavePost($PostValues) {
 		}
 		$_[$PostID] = $PostValues;
 	}
-	
+
 	uasort($_, 'SortFunction');
 	
 	$Result = file_put_contents($SaveFile, '<?php $_ = '.var_export($_, True).';');
@@ -84,6 +85,7 @@ if ($_POST) {
 	<input type="text" name="PostID" placeholder="PostID" value="<?php echo p('PostID');?>"/>
 	<textarea name="Body" placeholder="Текст"><?php echo p('Body');?></textarea>
 	<input type="text" name="Link" placeholder="Ссылка" value="<?php echo p('Link');?>"/>
+	<textarea name="FullBody" placeholder="Полный текст"><?php echo p('FullBody');?></textarea>
 <input type="submit" name="Save" value="Сохранить" />
 <input type="submit" name="Delete" value="Удалить" />
 </form>
