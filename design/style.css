@@ -8,7 +8,7 @@ body {
 	font-size: .9em;
 	background: #fff;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
-	color: #666;
+	color: #555;
 }
 
 p {
@@ -63,7 +63,7 @@ h2 {
 
 h1 {
 	padding:50px 0 25px;
-	color:#999;
+	color:#888;
 	border-bottom:1px solid #ddd;
 	font-size:250%;
 	padding:20px;
@@ -215,8 +215,7 @@ input.text:hover {
 
 .date {
 	text-align:right;
-	color:#BBB;
-	border-bottom:#CCC 1px dashed;
+	border-bottom: #ddd 1px dashed;
 	letter-spacing: .1em;
 	font-weight:100;
 	line-height:.8em;
