@@ -8,7 +8,7 @@ body {
 	font-size: .9em;
 	background: #fff;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
-	color: #555;
+	color: #666;
 }
 
 p {
@@ -215,7 +215,8 @@ input.text:hover {
 
 .date {
 	text-align:right;
-	border-bottom: #ddd 1px dashed;
+	color:#BBB;
+	border-bottom:#CCC 1px dashed;
 	letter-spacing: .1em;
 	font-weight:100;
 	line-height:.8em;
