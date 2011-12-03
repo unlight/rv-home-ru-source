@@ -6,10 +6,10 @@ function P($Name) {
 }
 
 function LoadPost($PostID) {
-	$SaveFile = PATH_DATA . "/posts.php";
-	if (file_exists($SaveFile)) {
-		include $SaveFile;
-		$DataValues = GetValue($PostID, $_, array());
+	$FullBodyFile = PATH_DATA . "/post{$PostID}.php";
+	if (file_exists($FullBodyFile)) {
+		include $FullBodyFile;
+		$DataValues = $_;
 		foreach ($DataValues as $Key => $Value) $_POST[$Key] = $Value;
 	}
 }
