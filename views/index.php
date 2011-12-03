@@ -31,8 +31,8 @@
 
 <div id="contact">
 	<h2>Контакты</h2>
-	<p>Email: s91630277 [at] gmail [dot] com</p>
-	<p>IRC: irc.dalnet.ru #unrealscript #javascript #php</p>
-	<p>IRC: irc.freenode.org #vanillaforums</p>
-	<p>IRC: irc.quakenet.org #unreal.ru</p>
+	<p>Email: s91630277 [at] gmail [dot] com<br/>
+	IRC: irc.dalnet.ru #unrealscript #javascript #php<br/>
+	IRC: irc.freenode.org #vanillaforums<br/>
+	IRC: irc.quakenet.org #unreal.ru</p>
 </div>
