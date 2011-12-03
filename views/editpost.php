@@ -13,6 +13,11 @@ function LoadPost($PostID) {
 	}
 }
 
+function SortFunction($Array1, $Array2) {
+	if ($Array1['PostDate'] == $Array2['PostDate']) return 0;
+	return ($Array1['PostDate'] > $Array2['PostDate']) ? -1 : 1;
+}
+
 function SavePost($PostValues) {
 	$IsDelete = GetValue('Delete', $PostValues, False, True);
 	unset($PostValues['Delete'], $PostValues['Save']);
@@ -32,7 +37,8 @@ function SavePost($PostValues) {
 		$_[$PostID] = $PostValues;
 	}
 	
-	krsort($_);
+	uasort($_, 'SortFunction');
+	
 	$Result = file_put_contents($SaveFile, '<?php $_ = '.var_export($_, True).';');
 	if ($Result) return $PostID;
 }
