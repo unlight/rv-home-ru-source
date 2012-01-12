@@ -6,7 +6,7 @@
 	<p><a class="Vanilla" rel="nofollow" href="http://vanillaforums.org/profile/s">vanillaforums.org/profile/8576/s</a></p>
 	<p><a class="AskDev" rel="nofollow" href="http://www.askdev.ru/member/iamthes/show/answered/">askdev.ru/member/iamthes</a></p>
 	<p><a class="UT2004" rel="nofollow" href="http://sst.planetunreal.ru">sst.planetunreal.ru</a></p>
-	<?php /*<p><a class="Vk" rel="nofollow" href="http://vkontakte.ru/id144809117">vkontakte.ru/id144809117</a></p> */?>
+	<p><a class="Vk" rel="nofollow" href="http://vkontakte.ru/id144809117">vkontakte.ru/id144809117</a></p>
 	<p><a class="Garden" rel="nofollow" href="http://gardenframework.ru">gardenframework.ru</a></p>
 </div>
 
