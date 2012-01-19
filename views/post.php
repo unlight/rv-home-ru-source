@@ -14,7 +14,7 @@ if ($Post->Link) {
 <?php echo $Post->Body;?>
 <p class="date"><?php
 	if ($RemoteHost) echo "<a href=\"{$Post->Link}\">Полностью на $RemoteHost</a> | ";
-	if ($Post->HasFullBody) echo "<a href=\"?p={$Post->PostID}\">Прочитать полностью (здесь)</a> | ";
+	if (GetValue('HasFullBody', $Post) && $Post->HasFullBody) echo "<a href=\"?p={$Post->PostID}\">Прочитать полностью (здесь)</a> | ";
 	echo date('D F j, Y', $PostTimeStamp); // Sat April 29, 2006
 	if ($AllowEdit) echo " | <a href='?id={$Post->PostID}&action=post'>редактировать</a>";
 ?></p>
