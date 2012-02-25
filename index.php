@@ -58,7 +58,7 @@ switch ($Action) {
 
 $FileView = 'views/'.$View.'.php';
 if (!file_exists($FileView)) {
-	header("HTTP/1.0 404", True, 404);
+	header("HTTP/1.0 404", True, 404); // File not found
 	$FileView = 'views/index.php';
 }
 $BodyCss[] = ucfirst($View);
