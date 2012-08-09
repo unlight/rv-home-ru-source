@@ -7,7 +7,7 @@
 	<p><a class="AskDev" rel="nofollow" href="http://www.askdev.ru/member/iamthes/show/answered/">askdev.ru/member/iamthes</a></p>
 	<p><a class="UT2004" rel="nofollow" href="http://sst.planetunreal.ru">sst.planetunreal.ru</a></p>
 	<p><a class="Vk" rel="nofollow" href="http://vkontakte.ru/id144809117">vkontakte.ru/id144809117</a></p>
-	<p><a class="Garden" rel="nofollow" href="http://gardenframework.ru">gardenframework.ru</a></p>
+	<p><a class="Garden" href="http://gardenframework.ru">gardenframework.ru</a></p>
 </div>
 
 <!--<a name="preamble"></a>
@@ -32,6 +32,7 @@
 <div id="contact">
 	<h2>Контакты</h2>
 	<p>Email: s91630277 [at] gmail [dot] com<br/>
+	Skype: k91630277<br/>
 	IRC: irc.dalnet.ru #unrealscript #javascript #php<br/>
 	IRC: irc.freenode.org #vanillaforums<br/>
 	IRC: irc.quakenet.org #unreal.ru</p>
