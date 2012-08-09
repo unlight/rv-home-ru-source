@@ -295,6 +295,9 @@ a.AskDev {
 	background-image: url(askdev1.png);
 }
 
+a.LetsGoToTheCinema {
+	background-image: url(lgttc2.jpg);
+}
 
 div.Post form input[type=text] {
 	width: 100%;
