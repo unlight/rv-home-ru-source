@@ -8,8 +8,8 @@
 	<p><a class="UT2004" rel="nofollow" href="http://sst.planetunreal.ru">sst.planetunreal.ru</a></p>
 	<p><a class="Vk" rel="nofollow" href="http://vkontakte.ru/id144809117">vkontakte.ru/id144809117</a></p>
 	<p><a class="Garden" href="http://gardenframework.ru">gardenframework.ru</a></p>
-	<p><a class="LetsGoToTheCinema" href="http://lets-go-to-the-cinema.ru/">lets-go-to-the-cinema.ru</a></p>
-	
+	<p><a class="LetsGoToTheCinema Dead" href="http://web.archive.org/web/http://lets-go-to-the-cinema.ru/">lets-go-to-the-cinema.ru</a></p>
+	<p><a class="Toogle Dead" href="http://web.archive.org/web/20100306055838/http://toogle.vfose.ru/">toogle.vfose.ru</a></p>
 </div>
 
 <!--<a name="preamble"></a>

@@ -280,10 +280,11 @@ a.UT2004 {
 }
 a.Vk {
 	background-image: url(vk.png);
-	line-height: 60px;
-	height: 60px;
-	background-position: 5px center;
-	/*display:none;*/
+}
+
+a.Toogle {
+	background-image: url(toogle.png);
+	background-position: 5px 5px;
 }
 
 a.Garden {
@@ -297,6 +298,11 @@ a.AskDev {
 
 a.LetsGoToTheCinema {
 	background-image: url(lgttc2.jpg);
+}
+
+.Dead {
+	text-decoration: line-through !important;
+	opacity: 0.5;
 }
 
 div.Post form input[type=text] {
