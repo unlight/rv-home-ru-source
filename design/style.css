@@ -264,7 +264,7 @@ input.button {
 	overflow: hidden;
 	padding-left: 180px;
 	background-repeat: no-repeat;
-	background-position: 5px 0px;
+	background-position: 5px 0;
 }
 
 a.GitHub {
@@ -280,6 +280,7 @@ a.UT2004 {
 }
 a.Vk {
 	background-image: url(vk.png);
+	background-position: 0 8px;
 }
 
 a.Toogle {
@@ -289,7 +290,12 @@ a.Toogle {
 
 a.Garden {
 	background-image: url(garden.png);
-	background-position: 0px 0px;
+	background-position: 0 0;
+}
+
+a.Npm {
+	background-image: url(npm.png);
+	background-position: 0px 8px;
 }
 
 a.AskDev {
