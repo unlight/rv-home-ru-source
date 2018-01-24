@@ -3,13 +3,13 @@
 
 <div class="LinkList">
 	<p><a class="GitHub" rel="nofollow" href="https://github.com/unlight">github.com/unlight</a></p>
-	<p><a class="Npm" rel="nofollow" href="https://npmjs.org/~iamthes">npmjs.org/~iamthes</a></p>
-	<p><a class="WebHive" rel="nofollow" href="http://webhive.info/">webhive.info</a></p>
+	<!-- <p><a class="Npm" rel="nofollow" href="https://npmjs.org/~iamthes">npmjs.org/~iamthes</a></p> -->
+	<p><a class="WebHive" rel="nofollow" href="http://webhive.herokuapp.com">webhive.info</a></p>
 	<p><a class="Vanilla" rel="nofollow" href="http://vanillaforums.org/profile/s">vanillaforums.org/profile/8576/s</a></p>
-	<p><a class="AskDev" rel="nofollow" href="http://www.askdev.ru/member/iamthes/show/answered/">askdev.ru/member/iamthes</a></p>
-	<p><a class="UT2004" rel="nofollow" href="http://sst.planetunreal.ru">sst.planetunreal.ru</a></p>
+	<p><a class="AskDev Dead" rel="nofollow" href="http://www.askdev.ru/member/iamthes/show/answered/">askdev.ru/member/iamthes</a></p>
+	<p><a class="UT2004 Dead" rel="nofollow" href="http://sst.planetunreal.ru/">sst.planetunreal.ru</a></p>
 	<p><a class="Vk" rel="nofollow" href="https://vk.com/id144809117">vk.com/id144809117</a></p>
-	<p><a class="Garden" href="http://gardenframework.ru">gardenframework.ru</a></p>
+	<p><a class="Garden Dead" href="http://gardenplatform.wordpress.com/">gardenframework.ru</a></p>
 	<p><a class="LetsGoToTheCinema Dead" href="http://web.archive.org/web/http://lets-go-to-the-cinema.ru/">lets-go-to-the-cinema.ru</a></p>
 	<p><a class="Toogle Dead" href="http://web.archive.org/web/20100306055838/http://toogle.vfose.ru/">toogle.vfose.ru</a></p>
 </div>
@@ -35,9 +35,8 @@
 
 <div id="contact">
 	<h2>Контакты</h2>
-	<p>Email: s91630277 [at] gmail [dot] com<br/>
+	<p>
+	Email: s91630277 [at] gmail [dot] com<br/>
 	Skype: k91630277<br/>
-	IRC: irc.dalnet.ru #unrealscript #javascript #php<br/>
-	IRC: irc.freenode.org #vanillaforums<br/>
-	IRC: irc.quakenet.org #unreal.ru</p>
+	</p>
 </div>
