@@ -8,7 +8,7 @@
 	<p><a class="Vanilla" rel="nofollow" href="http://vanillaforums.org/profile/s">vanillaforums.org/profile/8576/s</a></p>
 	<p><a class="AskDev Dead" rel="nofollow" href="http://www.askdev.ru/member/iamthes/show/answered/">askdev.ru/member/iamthes</a></p>
 	<p><a class="UT2004 Dead" rel="nofollow" href="http://sst.planetunreal.ru/">sst.planetunreal.ru</a></p>
-	<p><a class="Vk" rel="nofollow" href="https://vk.com/id144809117">vk.com/id144809117</a></p>
+	<!-- <p><a class="Vk" rel="nofollow" href="https://vk.com/id144809117">vk.com/id144809117</a></p> -->
 	<p><a class="Garden Dead" href="http://gardenplatform.wordpress.com/">gardenframework.ru</a></p>
 	<p><a class="LetsGoToTheCinema Dead" href="http://web.archive.org/web/http://lets-go-to-the-cinema.ru/">lets-go-to-the-cinema.ru</a></p>
 	<p><a class="Toogle Dead" href="http://web.archive.org/web/20100306055838/http://toogle.vfose.ru/">toogle.vfose.ru</a></p>
