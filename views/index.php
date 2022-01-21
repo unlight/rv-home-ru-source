@@ -3,9 +3,10 @@
 
 <div class="LinkList">
 	<p><a class="GitHub" rel="nofollow" href="https://github.com/unlight">github.com/unlight</a></p>
-	<!-- <p><a class="Npm" rel="nofollow" href="https://npmjs.org/~iamthes">npmjs.org/~iamthes</a></p> -->
 	<p><a class="WebHive" rel="nofollow" href="http://webhive.herokuapp.com">webhive.info</a></p>
+	<p><a class="Npm" rel="nofollow" href="https://npmjs.org/~iamthes">npmjs.org/~iamthes</a></p>
 	<p><a class="Vk" rel="nofollow" href="https://vk.com/id144809117">vk.com/id144809117</a></p>
+	<p><a class="Instagram" rel="nofollow" href="https://www.instagram.com/iamthes">instagram.com/iamthes</a></p>
 	<p><a class="Vanilla" rel="nofollow" href="http://vanillaforums.org/profile/s">vanillaforums.org/profile/8576/s</a></p>
 	<p><a class="Garden Dead" href="http://gardenplatform.wordpress.com/">gardenframework.ru</a></p>
 	<p><a class="UT2004 Dead" rel="nofollow" href="http://sst.planetunreal.ru/">sst.planetunreal.ru</a></p>
@@ -25,7 +26,7 @@
 
 <?php if (isset($Posts) && count($Posts) > 0) { ?>
 	<div id="blog">
-		<h2>Посты</h2>
+		<h2>Заметки</h2>
 		<?php foreach ($Posts as $Post) {
 			include dirname(__FILE__).'/post.php';
 		}
@@ -37,6 +38,6 @@
 	<h2>Контакты</h2>
 	<p>
 	Email: s91630277 [at] gmail [dot] com<br/>
-	Skype: k91630277<br/>
+	<!-- Skype: k91630277<br/> -->
 	</p>
 </div>
