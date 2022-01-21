@@ -171,7 +171,7 @@ if (!function_exists('K')) {
 		// Select
 		if ($SQL === Null) $SQL = Gdn::SQL();
 		if (is_string($Name) && $Value === Null) {
-			$Modificator = $Name{0};
+			$Modificator = $Name[0];
 			if (in_array($Modificator, array('#', '%', '@'))) $Name = substr($Name, 1);
 			
 			if (!isset($Cache[$Name])) {

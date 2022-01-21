@@ -40,7 +40,7 @@ if (!function_exists('Summation')) {
 		//$Result = array_fill(0, $MaxLength, 0);
 		for ($i = $MaxLength - 1; $i >= 0; $i--) {
 			if(!isset($Result[$i])) $Result[$i] = 0;
-			foreach ($Arguments as $Value) $Result[$i] += (int)($Value{$i});
+			foreach ($Arguments as $Value) $Result[$i] += (int)($Value[$i]);
 			$Sum = strval($Result[$i]);
 			$Length = strlen($Sum);
 			for ($n = $Length - 1; $n >= 0; $n--) {

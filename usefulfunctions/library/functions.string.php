@@ -15,7 +15,7 @@ if (!function_exists('SplitUpString')) {
 			if (is_string($Functions)) $List .= ' ' . $Functions;
 			$Collection = array_map('trim', explode(' ', trim($List)));
 			foreach ($Collection as $Key => $F) {
-				if ($F{0} == '-') unset($Collection[$Key]);
+				if ($F[0] == '-') unset($Collection[$Key]);
 			}
 			foreach ($Collection as $F) {
 				if (substr($F, 0, 1) == '+') substr($F, 1);
@@ -238,7 +238,7 @@ if (!function_exists('SplitString')) {
 	*/
 	function SplitString($String, $RegExpr = False, $FilterFunction = Null) {
 		if ($RegExpr == False) $RegExpr = '/\s*,\s*/';
-		elseif ($RegExpr{0} != '/') $RegExpr = '/'.$RegExpr.'/';
+		elseif ($RegExpr[0] != '/') $RegExpr = '/'.$RegExpr.'/';
 		$Array = preg_split($RegExpr, $String);
 		$Array = array_map('trim', $Array);
 		$Type = gettype($FilterFunction);
