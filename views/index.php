@@ -10,6 +10,6 @@
 	<p><a class="Vanilla" rel="nofollow" href="http://vanillaforums.org/profile/s">vanillaforums.org/profile/8576/s</a></p>
 	<p><a class="Garden Dead" href="http://gardenplatform.wordpress.com/">gardenframework.ru</a></p>
 	<p><a class="UT2004 Dead" rel="nofollow" href="http://sst.planetunreal.ru/">sst.planetunreal.ru</a></p>
-	<p><a class="LetsGoToTheCinema Dead" href="http://web.archive.org/web/http://lets-go-to-the-cinema.ru/">lets-go-to-the-cinema.ru</a></p>
+	<p><a class="LetsGoToTheCinema Dead" href="http://web.archive.org/web/20130521234139/http://lets-go-to-the-cinema.ru/">lets-go-to-the-cinema.ru</a></p>
 	<p><a class="Toogle Dead" href="http://web.archive.org/web/20100306055838/http://toogle.vfose.ru/">toogle.vfose.ru</a></p>
 </div>
