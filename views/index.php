@@ -3,7 +3,7 @@
 
 <div class="LinkList">
 	<p><a class="GitHub" rel="nofollow" href="https://github.com/unlight">github.com/unlight</a></p>
-	<p><a class="WebHive" rel="nofollow" href="http://webhive.herokuapp.com">webhive.info</a></p>
+	<p><a class="WebHive" rel="nofollow" href="https://webhive-web.onrender.com/">webhive.info</a></p>
 	<p><a class="Npm" rel="nofollow" href="https://npmjs.org/~iamthes">npmjs.org/~iamthes</a></p>
 	<p><a class="Vk" rel="nofollow" href="https://vk.com/id144809117">vk.com/id144809117</a></p>
 	<p><a class="Instagram" rel="nofollow" href="https://www.instagram.com/iamthes">instagram.com/iamthes</a></p>
