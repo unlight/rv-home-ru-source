@@ -316,6 +316,12 @@ a.Instagram {
 	background-position: 0 22px;
 }
 
+a.Stackoverflow {
+	background-image: url(stackoverflow.svg);
+	background-position: -10px 0px;
+	background-size: 160px 75px;
+}
+
 .Dead {
 	text-decoration: line-through !important;
 	opacity: 0.5;
