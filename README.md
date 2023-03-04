@@ -1,1 +1,1 @@
-docker run -p 80:80 --name my-apache-php-app -v d:\Dev\localhost\rv-home.ru:/var/www/html php:7.4-apache
+docker run -p 80:80 -v d:\Dev\localhost\rv-home.ru:/var/www/html php:7.4-apache
