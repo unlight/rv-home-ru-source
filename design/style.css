@@ -322,6 +322,11 @@ a.Stackoverflow {
 	background-size: 160px 75px;
 }
 
+a.Telegram {
+	background-image: url(tg2.png);
+	background-position: 0 8px;	
+}
+
 .Dead {
 	text-decoration: line-through !important;
 	opacity: 0.5;
